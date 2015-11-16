@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  ThirdViewController.swift
 //  Pizzart
 //
 //  Created by Mateo Villagomez on 16/11/15.
@@ -8,22 +8,20 @@
 
 import UIKit
 
-class SecondViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
-    
-    @IBOutlet weak var sizePicker: UIPickerView!
+class ThirdViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+
+    @IBOutlet weak var doughPicker: UIPickerView!
     
     var pickerData: [String] = [String]()
-    
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Connect data:
-        self.sizePicker.delegate = self
-        self.sizePicker.dataSource = self
+        self.doughPicker.delegate = self
+        self.doughPicker.dataSource = self
         
         // Input data into the Array:
-        pickerData = ["Extra Thin", "Traditional", "Double Dough"]
+        pickerData = ["Neapolitan-style", "New York-style", "Sicilian-style"]
     }
 
     override func didReceiveMemoryWarning() {
@@ -51,7 +49,4 @@ class SecondViewController: UIViewController, UIPickerViewDelegate, UIPickerView
         // This method is triggered whenever the user makes a change to the picker selection.
         // The parameter named row and component represents what was selected.
     }
-
-
 }
-

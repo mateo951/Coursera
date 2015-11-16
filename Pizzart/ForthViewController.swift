@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  ForthViewController.swift
 //  Pizzart
 //
 //  Created by Mateo Villagomez on 16/11/15.
@@ -8,28 +8,29 @@
 
 import UIKit
 
-class SecondViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+class ForthViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
-    @IBOutlet weak var sizePicker: UIPickerView!
+    @IBOutlet weak var cheesePicker: UIPickerView!
     
     var pickerData: [String] = [String]()
-    
-    
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Connect data:
-        self.sizePicker.delegate = self
-        self.sizePicker.dataSource = self
+        self.cheesePicker.delegate = self
+        self.cheesePicker.dataSource = self
         
         // Input data into the Array:
-        pickerData = ["Extra Thin", "Traditional", "Double Dough"]
+        pickerData = ["Mozzarella", "Provolone", "Parmigiano", "Gouda"]
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
     
     // The number of columns of data
     func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
@@ -52,6 +53,4 @@ class SecondViewController: UIViewController, UIPickerViewDelegate, UIPickerView
         // The parameter named row and component represents what was selected.
     }
 
-
 }
-

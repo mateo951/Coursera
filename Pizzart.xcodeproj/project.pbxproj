@@ -16,6 +16,11 @@
 		A28570771BF9A89100523F42 /* pizza 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A28570741BF9A89100523F42 /* pizza 2.jpg */; };
 		A28570781BF9A89100523F42 /* pizza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A28570751BF9A89100523F42 /* pizza.jpg */; };
 		A28570791BF9A89100523F42 /* Pizza 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A28570761BF9A89100523F42 /* Pizza 1.jpg */; };
+		A285707B1BF9B9F600523F42 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A285707A1BF9B9F500523F42 /* ThirdViewController.swift */; };
+		A285707D1BF9BA0D00523F42 /* ForthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A285707C1BF9BA0D00523F42 /* ForthViewController.swift */; };
+		A285707F1BF9BA1E00523F42 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A285707E1BF9BA1E00523F42 /* FifthViewController.swift */; };
+		A28570811BF9BA4300523F42 /* SixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28570801BF9BA4300523F42 /* SixthViewController.swift */; };
+		A28570831BF9C33C00523F42 /* pizzatelefono3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A28570821BF9C33C00523F42 /* pizzatelefono3.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +35,11 @@
 		A28570741BF9A89100523F42 /* pizza 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pizza 2.jpg"; sourceTree = "<group>"; };
 		A28570751BF9A89100523F42 /* pizza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pizza.jpg; sourceTree = "<group>"; };
 		A28570761BF9A89100523F42 /* Pizza 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pizza 1.jpg"; sourceTree = "<group>"; };
+		A285707A1BF9B9F500523F42 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		A285707C1BF9BA0D00523F42 /* ForthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForthViewController.swift; sourceTree = "<group>"; };
+		A285707E1BF9BA1E00523F42 /* FifthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		A28570801BF9BA4300523F42 /* SixthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SixthViewController.swift; sourceTree = "<group>"; };
+		A28570821BF9C33C00523F42 /* pizzatelefono3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pizzatelefono3.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +75,10 @@
 				A28570601BF9A40A00523F42 /* AppDelegate.swift */,
 				A28570621BF9A40A00523F42 /* FirstViewController.swift */,
 				A28570641BF9A40A00523F42 /* SecondViewController.swift */,
+				A285707A1BF9B9F500523F42 /* ThirdViewController.swift */,
+				A285707C1BF9BA0D00523F42 /* ForthViewController.swift */,
+				A285707E1BF9BA1E00523F42 /* FifthViewController.swift */,
+				A28570801BF9BA4300523F42 /* SixthViewController.swift */,
 				A28570661BF9A40A00523F42 /* Main.storyboard */,
 				A28570691BF9A40A00523F42 /* Assets.xcassets */,
 				A285706B1BF9A40A00523F42 /* LaunchScreen.storyboard */,
@@ -72,6 +86,7 @@
 				A28570741BF9A89100523F42 /* pizza 2.jpg */,
 				A28570751BF9A89100523F42 /* pizza.jpg */,
 				A28570761BF9A89100523F42 /* Pizza 1.jpg */,
+				A28570821BF9C33C00523F42 /* pizzatelefono3.jpeg */,
 			);
 			path = Pizzart;
 			sourceTree = "<group>";
@@ -137,6 +152,7 @@
 			files = (
 				A28570781BF9A89100523F42 /* pizza.jpg in Resources */,
 				A285706D1BF9A40A00523F42 /* LaunchScreen.storyboard in Resources */,
+				A28570831BF9C33C00523F42 /* pizzatelefono3.jpeg in Resources */,
 				A285706A1BF9A40A00523F42 /* Assets.xcassets in Resources */,
 				A28570771BF9A89100523F42 /* pizza 2.jpg in Resources */,
 				A28570681BF9A40A00523F42 /* Main.storyboard in Resources */,
@@ -151,9 +167,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A285707F1BF9BA1E00523F42 /* FifthViewController.swift in Sources */,
+				A28570811BF9BA4300523F42 /* SixthViewController.swift in Sources */,
 				A28570651BF9A40A00523F42 /* SecondViewController.swift in Sources */,
 				A28570611BF9A40A00523F42 /* AppDelegate.swift in Sources */,
+				A285707B1BF9B9F600523F42 /* ThirdViewController.swift in Sources */,
 				A28570631BF9A40A00523F42 /* FirstViewController.swift in Sources */,
+				A285707D1BF9BA0D00523F42 /* ForthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
